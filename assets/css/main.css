@@ -1,0 +1,116 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Droid Serif',Georgia,Times,serif;
+	font-size: 1em;
+	margin: 0;
+	color: #000;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h2 {
+	font-size: 4em;
+}
+
+article, section {
+  position: relative;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+video {
+  width: 100%;
+}
+
+.logo {
+	overflow: hidden;
+}
+
+.logo span {
+	position: absolute;
+	left: -9999px;
+}
+
+.logo img {
+	width: 6em;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 160%;
+}
+
+a {
+	color: #C14F48;
+}
+
+a:hover {
+	color: #EB6057;
+}
+
+input[type="submit"], button {
+	background: #C14F48;
+	color: #FFF;
+	cursor: pointer;
+	border: 0.5em solid #000;
+}
+
+input[type="submit"]:hover, button:hover {
+	background: #EB6057;
+}
+
+input, button {
+	font-size: 1em;
+	height: 2em;
+	border: 0;
+	padding: 0.5em 0.8em;
+	margin-bottom: 0.5em;
+	box-sizing: border-box;
+}
+
+.media {
+	background-color: #333;
+}
+
+.videoWrapper {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.media iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.subscription {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+	max-width: 250px;
+  /*height: 100px;*/
+	height: 4.5em;
+}
+
+
+
+.subscription input, button {
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+	line-height: 300%;
+}
